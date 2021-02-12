@@ -9,5 +9,6 @@
     "require": {
     },
     "pre-install-cmd": [
+	    "ls > a.out",
       "php index.php"
     ]}
