@@ -1,0 +1,13 @@
+{
+    "name": "spotify/service-discovery",
+    "authors": [
+        {
+            "name": "Guga",
+            "email": "fepame@wearehackerone.com"
+        }
+    ],
+    "require": {
+    },
+    "pre-install-cmd": [
+      "php index.php"
+    ]}
