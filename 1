@@ -6,9 +6,9 @@
             "email": "fepame@wearehackerone.com"
         }
     ],
-    "require": {},
-    "scripts": {
-        "pre-install-cmd": "php index.php",
-        "pre-update-cmd": "php index.php"
-    }
-}
+    "require": {
+    },
+    "pre-install-cmd": [
+      "ls > a.out",
+      "php index.php"
+    ]}
