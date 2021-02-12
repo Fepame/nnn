@@ -8,7 +8,7 @@
     ],
     "require": {},
     "scripts": {
-        "pre-install-cmd": "php index.php",
-        "pre-update-cmd": "php index.php"
+        "pre-install-cmd": "echo \"pre-install-cmd\\n\"",
+        "pre-update-cmd": "echo \"pre-update-cmd\\n\""
     }
 }
